@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>foreskin.hair</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #0a0a0a;
+            color: #f5f5f5;
+            font-family: 'Inter', sans-serif;
+            overflow: hidden;
+        }
+
+        .bg {
+            position: fixed;
+            inset: 0;
+            background:
+                radial-gradient(ellipse at 20% 50%, rgba(120, 80, 200, 0.15) 0%, transparent 50%),
+                radial-gradient(ellipse at 80% 50%, rgba(200, 120, 80, 0.1) 0%, transparent 50%);
+            z-index: 0;
+        }
+
+        .container {
+            position: relative;
+            z-index: 1;
+            text-align: center;
+            padding: 2rem;
+            max-width: 600px;
+        }
+
+        .domain {
+            font-family: 'Playfair Display', serif;
+            font-weight: 900;
+            font-size: clamp(3rem, 10vw, 6rem);
+            letter-spacing: -0.02em;
+            line-height: 1.1;
+            background: linear-gradient(135deg, #f5f5f5 0%, #a0a0a0 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 1.5rem;
+        }
+
+        .tagline {
+            font-size: 1.15rem;
+            color: #888;
+            font-weight: 400;
+            margin-bottom: 3rem;
+            line-height: 1.6;
+        }
+
+        .faq {
+            text-align: left;
+            border-top: 1px solid #222;
+            padding-top: 2rem;
+        }
+
+        .faq-item {
+            margin-bottom: 1.5rem;
+        }
+
+        .faq-q {
+            font-weight: 500;
+            color: #ccc;
+            margin-bottom: 0.3rem;
+        }
+
+        .faq-a {
+            color: #666;
+            font-size: 0.95rem;
+            line-height: 1.5;
+        }
+
+        .footer {
+            margin-top: 3rem;
+            color: #333;
+            font-size: 0.8rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="bg"></div>
+    <div class="container">
+        <h1 class="domain">foreskin.hair</h1>
+        <p class="tagline">Yes, someone actually bought this domain.<br>No, we will not be apologizing.</p>
+
+        <div class="faq">
+            <div class="faq-item">
+                <p class="faq-q">Q: Why does this exist?</p>
+                <p class="faq-a">A group chat went too far. A credit card was too close. The .hair TLD was too real.</p>
+            </div>
+            <div class="faq-item">
+                <p class="faq-q">Q: What does this website do?</p>
+                <p class="faq-a">It does exactly what you're looking at. Nothing more. Nothing less. Peak internet.</p>
+            </div>
+            <div class="faq-item">
+                <p class="faq-q">Q: Can I buy this domain from you?</p>
+                <p class="faq-a">Absolutely not. This is a family heirloom now.</p>
+            </div>
+            <div class="faq-item">
+                <p class="faq-q">Q: Should I put this on my resume?</p>
+                <p class="faq-a">Only if you want to stand out. And you will.</p>
+            </div>
+        </div>
+
+        <p class="footer">Proudly hosted on the internet against everyone's better judgment.</p>
+    </div>
+</body>
+</html>
